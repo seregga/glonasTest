@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.table__td {
+    text-align: center;
+    font-size: 16px;
+    height: 30px;
+    width: 50px ;
+    background: #eee;
+}
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.table-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.table__td-delete{
+    background-color: #d4d4d4;
+}
+.button-add,
+.button-calculate {
+    padding: 5px;
+    margin: 1px;
+    background-color: #d4d4d4;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+}
+input{
+    background: #eee;
+    border-color: black;
+    height: 24px;
+    width: 40px ;
+}
+input:focus{
+    background: #eee;
+}
+
+#canv1, #canv2, #canv3{
+    background-color:rgb(162, 173, 173);
+}
