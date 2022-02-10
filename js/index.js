@@ -35,9 +35,10 @@ function editTableItem(targetItem) {
 function addTableRow(targetItem) {
     const tr = document.createElement('tr');
     tr.setAttribute('class', 'table__tr');
+    const randomNum = Math.round((Math.random() * 100));
     tr.innerHTML = `
-        <td class="table__td">95</td>
-        <td class="table__td">35</td>
+        <td class="table__td">${randomNum}</td>
+        <td class="table__td">${randomNum + 20}</td>
         <td class="table__td-delete">Delete</td>
         `;
     if (targetItem.id == 'butaddtable1') {

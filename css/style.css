@@ -1,6 +1,23 @@
 body {
     font-family: sans-serif;
+    margin: 0;
+    padding:8px;
     box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 0 5px 0;
+}
+.table-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1px 0;
+}
+.table{
+    margin: 0 0 1px 0;
 }
 .table__td {
     text-align: center;
@@ -9,16 +26,6 @@ body {
     width: 50px ;
     background: #eee;
 }
-.container{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-.table-wrap {
-    display: flex;
-    flex-direction: column;
-}
 
 .table__td-delete{
     background-color: #d4d4d4;
@@ -26,7 +33,6 @@ body {
 .button-add,
 .button-calculate {
     padding: 5px;
-    margin: 1px;
     background-color: #d4d4d4;
     font-weight: bold;
     cursor: pointer;
@@ -44,5 +50,6 @@ input:focus{
 }
 
 #canv1, #canv2, #canv3{
-    background-color:rgb(162, 173, 173);
+    margin: 0 0 5px 0;
+    background: #eee;
 }
